@@ -32,4 +32,7 @@ TODO
 
 License
 -------
+The software shall be used for Good, not Evil.
+
+Additionally:
 MIT License
