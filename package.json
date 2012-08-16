@@ -1,15 +1,16 @@
 {
-    "name": "random-ua",
+    "name": "phoney",
     "version": "0.0.1",
-    "main":"./random_ua.js",
-    "description": "Randomly generates User-Agent strings based on actual usage statistics from Wikipedia and StatOwl.com as of July 2012.",
+    "main":"./phoney.js",
+    "description": "Extracts US phone numbers from HTML and arbitrary text.",
     "keywords": [
-        "user",
-        "agent",
-        "browser",
-        "user-agent",
-        "http",
-        "random"
+        "phone",
+        "telephone",
+        "us",
+        "usa",
+        "extract",
+        "scrape",
+        "parse"
     ],
     "author": {
         "name": "Jeffrey Mealo",
@@ -21,11 +22,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "http://github.com/jmealo/node-random-ua.git"
+        "url": "http://github.com/jmealo/node-phoney.git"
     },
     "directories": {
         "examples": "examples",
-        "test": "test"
+        "test": "test",
+        "data": "data"
     },
     "engines": {
         "node": "*"
