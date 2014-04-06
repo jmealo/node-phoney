@@ -1,8 +1,8 @@
 {
     "name": "phoney",
-    "version": "0.0.1",
-    "main":"./phoney.js",
-    "description": "Extracts US phone numbers from HTML and arbitrary text.",
+    "version": "0.0.2",
+    "main": "./phoney.js",
+    "description": "phoney.js formats, validates and extracts NANP (North American Numbering Plan) phone numbers from HTML and arbitrary text.",
     "keywords": [
         "phone",
         "telephone",
@@ -10,20 +10,30 @@
         "usa",
         "extract",
         "scrape",
-        "parse"
+        "parse",
+        "NANP"
     ],
     "author": {
         "name": "Jeffrey Mealo",
         "email": "jeffreymealo@gmail.com",
         "web": "http://www.jeffreymealo.com"
     },
-    "license": {
-        "type": "MIT + Do good, not evil!"
+    "bugs": {
+        "web": "https://github.com/jmealo/phoney.js/issues"
     },
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/jmealo/node-phoney.git"
-    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/jmealo/phoney.js.git"
+        }
+    ],
+    "licenses": [
+        {
+            "name": "MIT",
+            "url": "https://raw.githubusercontent.com/jmealo/phoney.js/master/LICENSE"
+        }
+    ],
+    "homepage": "https://github.com/jmealo/phoney.js",
     "directories": {
         "examples": "examples",
         "test": "test",
@@ -31,5 +41,8 @@
     },
     "engines": {
         "node": "*"
+    },
+    "devDependencies": {
+        "grunt": "^0.4.4"
     }
 }

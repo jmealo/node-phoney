@@ -1,2 +1,17 @@
-.idea/workspace.xml
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
 .DS_Store
+
+# Logs
+logs
+
+#Grunt
+*.log
+.grunt
+
+# Node.JS modules
+node_modules
